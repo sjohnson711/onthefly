@@ -1,0 +1,29 @@
+{
+  "name": "onthefly",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run reset && nodemon --require dotenv/config server.js",
+    "reset": "cd config && node --require dotenv/config reset.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjohnson711/onthefly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjohnson711/onthefly/issues"
+  },
+  "homepage": "https://github.com/sjohnson711/onthefly#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.22.0"
+  }
+}
