@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   res
     .status(200)
     .send(
-      '<h1 style="text-align: center; margin-top: 50px>✈️ On the Fly API></h1>',
+      '<h1 style="text-align: center; margin-top: 50px;">✈️ On the Fly API</h1>',
     );
 });
 

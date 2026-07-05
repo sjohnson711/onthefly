@@ -1,0 +1,50 @@
+[
+  {
+    "destination": "London",
+    "description": "Cosmopolitan capital where royal palaces, world-class museums, and centuries of history meet a buzzing modern city.",
+    "city": "London",
+    "country": "United Kingdom",
+    "img_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "destination": "Edinburgh",
+    "description": "Scotland's medieval capital, crowned by a hilltop castle and wrapped in cobbled closes and dramatic crags.",
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "img_url": "https://images.unsplash.com/photo-1506377585622-bedcbb027afc?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "destination": "Venice",
+    "description": "A romance of Baroque palaces and gondola-dotted canals, where every corner opens onto water and history.",
+    "city": "Venice",
+    "country": "Italy",
+    "img_url": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "destination": "Rome",
+    "description": "The Eternal City, where ancient ruins, Renaissance art, and vibrant piazzas mingle with today's Italian life.",
+    "city": "Rome",
+    "country": "Italy",
+    "img_url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "destination": "Cairo",
+    "description": "Gateway to the pyramids, where historic mosques and bustling bazaars sit beside the timeless Nile.",
+    "city": "Cairo",
+    "country": "Egypt",
+    "img_url": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/eg.png"
+  },
+  {
+    "destination": "Quito",
+    "description": "Ecuador's high-altitude capital, rich in Spanish colonial history and framed by dramatic Andean peaks.",
+    "city": "Quito",
+    "country": "Ecuador",
+    "img_url": "https://images.unsplash.com/photo-1583531352515-8884af319dc1?w=800",
+    "flag_img_url": "https://flagcdn.com/w320/ec.png"
+  }
+]
