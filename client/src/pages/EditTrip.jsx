@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import { useParams } from 'react-router';
 import './EditTrip.css'
 
-const EditTrip = ({data}) => {
+const EditTrip = ({data, api_url}) => {
 
     const {id} = useParams();
     const [post, setPost] = useState({id: 0, title: "", description: "", img_url: "", num_days: 0, start_date: "", end_date: "", total_cost: 0.0 })
@@ -34,7 +34,7 @@ const EditTrip = ({data}) => {
             },
             body: JSON.stringify(post)
         }
-        fetch('/api/trips/' + id, options)
+        fetch(`${api_url}/api/trips/` + id, options)
         window.location.href = '/'
 
 
@@ -47,7 +47,7 @@ const EditTrip = ({data}) => {
             method: 'DELETE'
 
         }
-        fetch('/api/trips/' + id, options)
+        fetch(`${api_url}/api/trips/` + id, options)
         window.location.href = '/'
 
         

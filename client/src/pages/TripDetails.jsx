@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ActivityBtn from '../components/ActivityBtn';
 import './TripDetails.css';
 
-const TripDetails = ({ data }) => {
+const TripDetails = ({ data, api_url }) => {
     const [activities, setActivities] = useState([])
     const [destinations, setDestinations] = useState([])
     const { id } = useParams();
@@ -12,7 +12,7 @@ const TripDetails = ({ data }) => {
 
     useEffect(() => {
         const fetchActivities = async () => {
-            const response = await fetch('/api/activities/' + id);
+            const response = await fetch(`${api_url}/api/activities/` + id);
             const data = await response.json();
             setActivities(data);
         }
@@ -21,7 +21,7 @@ const TripDetails = ({ data }) => {
 
     useEffect(() => {
         const fetchDestinations = async () => {
-            const response = await fetch('/api/trips_destinations/destinations/' + id)
+            const response = await fetch(`${api_url}/api/trips_destinations/destinations/` + id)
             const data = await response.json();
             setDestinations(data)
         }
